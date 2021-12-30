@@ -1,4 +1,4 @@
-package cn.jho.juc.juc01;
+package cn.jho.juc.daemon;
 
 /**
  * 若存在任何一个用户线程未结束，JVM存活。
