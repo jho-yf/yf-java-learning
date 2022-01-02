@@ -1,4 +1,4 @@
-package cn.jho.juc.set;
+package cn.jho.juc.collections.set;
 
 import java.util.HashSet;
 import java.util.Set;

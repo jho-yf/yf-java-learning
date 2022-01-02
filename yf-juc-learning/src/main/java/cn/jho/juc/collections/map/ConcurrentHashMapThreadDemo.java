@@ -1,19 +1,17 @@
-package cn.jho.juc.map;
+package cn.jho.juc.collections.map;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * HashMap是线程不安全的
- *
  * @author JHO xu-jihong@qq.com
- * @date 2022-01-01 15:04
+ * @date 2022-01-01 15:10
  */
-public class HashMapThreadDemo {
+public class ConcurrentHashMapThreadDemo {
 
     public static void main(String[] args) {
-        Map<String, String> map = new HashMap<>();
+        Map<String, String> map = new ConcurrentHashMap<>();
         for (int i = 0; i < 100; i++) {
             String key = String.valueOf(i);
             new Thread(() -> {
