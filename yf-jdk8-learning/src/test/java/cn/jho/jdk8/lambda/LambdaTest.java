@@ -33,7 +33,7 @@ public class LambdaTest {
      */
     @Test
     public void testGeneral() {
-        Comparator<Integer> comparator = new Comparator<>() {
+        Comparator<Integer> comparator = new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
                 return Integer.compare(o1, o2);

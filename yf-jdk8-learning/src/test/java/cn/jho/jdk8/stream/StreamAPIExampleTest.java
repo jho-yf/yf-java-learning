@@ -222,7 +222,7 @@ public class StreamAPIExampleTest {
 
         Map<String, List<String>> collect = personList.stream()
                 .filter(p -> map.containsKey(p.getName()))
-                .collect(Collectors.toMap(Person::getAge, p -> new ArrayList<>() {{
+                .collect(Collectors.toMap(Person::getAge, p -> new ArrayList<String>() {{
                     add(map.get(p.getName()));
                 }}, (v1, v2) -> Stream.of(v1, v2).flatMap(Collection::stream).collect(Collectors.toList())));
         System.out.println(collect);
