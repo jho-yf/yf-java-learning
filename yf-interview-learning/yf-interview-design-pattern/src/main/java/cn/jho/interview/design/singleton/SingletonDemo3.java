@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
+ * 饿汉式：静态代码块（适合复杂实例化）
+ *
  * @author JHO xu-jihong@qq.com
  * @date 2022-01-05 22:55
  */
