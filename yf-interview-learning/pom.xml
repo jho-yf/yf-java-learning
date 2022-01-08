@@ -12,7 +12,6 @@
 
     <modules>
         <module>yf-interview-design-pattern</module>
-        <module>yf-interview-oop</module>
         <module>yf-interview-base</module>
     </modules>
 

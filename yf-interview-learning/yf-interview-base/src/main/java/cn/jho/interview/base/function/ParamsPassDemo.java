@@ -1,4 +1,4 @@
-package cn.jho.interview.base;
+package cn.jho.interview.base.function;
 
 
 import java.util.Arrays;

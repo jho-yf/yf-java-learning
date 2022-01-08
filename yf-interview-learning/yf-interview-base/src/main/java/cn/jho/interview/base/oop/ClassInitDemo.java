@@ -1,4 +1,4 @@
-package cn.jho.interview.oop;
+package cn.jho.interview.base.oop;
 
 /**
  * 类初始化和实例初始化示例
