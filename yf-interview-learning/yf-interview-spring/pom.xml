@@ -3,21 +3,18 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>yf-java-learning</artifactId>
-        <groupId>cn.jho</groupId>
+        <artifactId>yf-interview-learning</artifactId>
+        <groupId>cn.jho.interview</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
 
-    <modules>
-        <module>yf-interview-design-pattern</module>
-        <module>yf-interview-base</module>
-        <module>yf-interview-spring</module>
-    </modules>
+    <groupId>cn.jho.interview.spring</groupId>
+    <artifactId>yf-interview-spring</artifactId>
 
-    <artifactId>yf-interview-learning</artifactId>
-    <groupId>cn.jho.interview</groupId>
-
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
 </project>
