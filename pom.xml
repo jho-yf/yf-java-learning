@@ -11,6 +11,7 @@
         <module>yf-juc-learning</module>
         <module>yf-jdk8-learning</module>
         <module>yf-interview-learning</module>
+        <module>yf-jvm-learning</module>
     </modules>
     <packaging>pom</packaging>
 
